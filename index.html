@@ -1,44 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ital">
 <head>
     <meta charset="UTF-8">
-    <title>CSS</title>
-          <link rel="stylesheet" href="CSS/master.css" />
-          <link rel="stylesheet" href="index.css" type="text" />
-  </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> I FARAONI </title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
 <body>
-  <div class="page">
-  <div class="container">
-                <div class="form-area">
-                    <div class="form-width">
-                       <div class="tab-content">
-                                <form action="">
-                                    <div class="form-bor">
-                                        <div class="form-input-group">
-                                            <label for="">Username</label>
-                                            <input type="text" name="username">
-                                        </div>
 
-                                        <div class="form-input-group">
-                                            <label for="">Password</label>
-                                            <input type="password" name="password">
-                                        </div>
-                                        <div class="form-input-checkbox">
-                                            <input type="checkbox" id="test1" />
-                                            <label for="test1">Keep me Signed in</label>
-                                        </div>
-                                        <div class="form-input-group">
-                                            <button>Sing in</button>
-                                        </div>
-                                   
-                                    </div>
-                                    <a class="forgot-pass" href="index.html">Already have an account? <strong>Sign in</strong> </a>
-                                  </form>
-                            </div>
-                        </div>
-                    </div>
-                 </div>
-             </div>
+ 
+
+   <!-- Start Header -->
+   <div class="header" id="header">
+    <div class="container">
+      <a href="#" class="logo">I FARAONI</a>
+      <ul class="main-nav">
+        <li><a href="#gallery"> GALLERIA   </a></li>
+        <li><a href="#features">  SPECIAL OFFICER  </a></li>
+        <li><a href="#services"> RECIDE </a></li>
+        <li><a href="#footer"> CONTATTO  </a></li>
+      </ul>
+    </div>
+   </div>
+
+        <!-- Start Landing Section -->
+        <div class="landing">
+          <div class="intro-text">
+            <h1> autolavaggio the best one  </h1>
+          </div>
+        </div> 
+        <!-- End Landing Section -->
+    
+    
+         
+
+
+
+
+      <!-- Start Gallery -->
+    <div class="gallery" id="gallery">
+      <h2 class="main-title"> GALLERIA </h2>
+      <div class="container">
+        <div class="box">
+          <div class="image">
+            <img decoding="async" src="img/man-cleaning-car-engine-shampoo-brush-1346792666.jpg" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img decoding="async" src="img/man-cleaning-car-interior-detailing-valeting-1185641023.jpg" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img decoding="async" src="img/carwash-worker-cleans-salon-steam-cleaner-1358826872.jpg" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img decoding="async" src="img/convertible-car-roof-cleaning-maintenance-taking-1081186241.jpg" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img decoding="async" src="img/car-detailing-washing-cleaning-engine-using-1185911488.jpg" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img decoding="async" src="img/car-care-concept-detailing-cleaning-interior-650651461.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Features -->
+    <div class="features" id="features">
+      <h2 class="main-title"> special officer </h2>
+      <div class="container">
+        <div class="box quality">
+          <div class="img-holder"><img decoding="async" src="img/4961a9a597754bbfba73058dee3f9042.webp" /></div>
+          <h2>  un'offerta </h2>
+          <p> ogni 5 lavaggi completi 
+            1 in omaggio </p>
+          <a href="#"> SCELTA </a>
+        </div>
+       
+        <div class="box passion">
+          <div class="img-holder"><img decoding="async" src="img/331749408_871673147275492_4195468844044069439_n.jpg" /></div>
+          <h2> il tempo </h2>
+          <p>auto pronta in 20 minuti completo e accurato </p>
+          <a href="#"> SCELTA </a>
+        </div>
+
+        <div class="box time">
+          <div class="img-holder"><img decoding="async" src="img/Self-Service-Car-Wash-w768.jpg" /></div>
+          <h2>  il prezzo </h2>
+          <p>  lavaggio interno en esterno + cera + profumo + sanificazione €10
+          </p>
+          <a href="#"> SCELTA </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+    
+
+
+    <!-- Start Services -->
+    <div class="services" id="services">
+      <h2 class="main-title"> recide </h2>
+      <div class="container">
+        <div class="box">
+          <i class="fa fa-shield fa-4x" aria-hidden="true"></i>
+
+          <h3>  sanificazione  </h3>
+          <div class="info">
+            <a href="#"> Progetto </a>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-tools fa-4x"></i>
+          <h3> lavaggilavaggio o con cera   </h3>
+          <div class="info">
+            <a href="#"> Progetto </a>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-thermometer-full fa-4x" aria-hidden="true"></i>
+          <h3> auto moto scooter    </h3>
+          <div class="info">
+            <a href="#">  Progetto</a>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-bars fa-4x" aria-hidden="true"></i>
+          <h3>  lavaggio tappezzeri  </h3>
+          <div class="info">
+            <a href="#"> Progetto  </a>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-filter fa-4x" aria-hidden="true"></i>
+          <h3>  lucidatura fari   </h3>
+          <div class="info">
+            <a href="#"> Progetto </a>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-home fa-4x" aria-hidden="true"></i>
+          <h3> lavaggio  tappeti di casa  </h3>
+          <div class="info">
+            <a href="#"> Progetto </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Services -->
+   
+    
+    <!-- Start Footer -->
+    <div class="footer" id="footer">
+      <div class="container">
+        <div class="box">
+          <h3> I FARAONI </h3>
+          <ul class="social">
+            <li>
+              <a href="#" class="facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text">
+            DI ALLOCCA RAMY KHATIB E SALVATORE E MARIO 
+          </p>
+        </div>
+   <!--     <div class="box">
+          <ul class="links">
+            <li><a href="#">Important Link 1</a></li>
+            <li><a href="#">Important Link 2</a></li>
+            <li><a href="#">Important Link 3</a></li>
+            <li><a href="#">Important Link 4</a></li>
+            <li><a href="#">Important Link 5</a></li>
+          </ul>
+        </div>
+      -->
+        <div class="box">
+          <div class="line">
+            <i class="fas fa-map-marker-alt fa-fw"></i>
+            <div class="info">via macello, 8 - gallo di comiziano (Na) </div>
+          </div>
+          <div class="line">
+            <i class="far fa-clock fa-fw"></i>
+            <div class="info"> orario continuato: dal lunedi al sabato ore 07:30 - 20:00  domenica (fino alle 14.00)  </div> 
+          </div>
+          <div class="line">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="thebestone339@gmail.com"> thebestone339@gmail.com </a>
+          </div>
+          <div class="line">
+            <i class="fas fa-phone-volume fa-fw"></i>
+            <div class="info">
+              <span> +329 63 51 492  </span>
+              <span>+340 15 12 547 </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">Made With <i class="fa fa-heart" aria-hidden="true"></i>  By  <a href="https://www.instagram.com/rawan_roro700/">  Rawan Esfiera </a>  </p> 
+
+    </div>
+    <!-- End Footer -->   
+   
+    <script src="js/master.js"> </script>
 </body>
 </html>
+
+
+
 
